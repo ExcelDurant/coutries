@@ -1,0 +1,24 @@
+.header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    border-bottom: 1px solid rgb(177, 177, 177);
+
+    .logo {
+        font-weight: 400;
+        font-size: 18px;
+        text-transform: capitalize;
+        margin-left: 5%;
+        color: rgb(54, 54, 54);
+    }
+
+    .navlink {
+        display: inline-block;
+        text-decoration: none;
+        color: gray;
+        margin-right: 5%;
+    }
+}

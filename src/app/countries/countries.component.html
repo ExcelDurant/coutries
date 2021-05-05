@@ -1,0 +1,9 @@
+<div class="page">
+    <div class="page-header">
+        <h1 class="page-title">Search for a country</h1>
+        <input type="text" placeholder="Enter country name" name="search" id="search" class="search-box">
+    </div>
+    <section class="countries-sec">
+        <app-single-country *ngFor="let country of countries" [country]="country"></app-single-country>
+    </section>
+</div>
